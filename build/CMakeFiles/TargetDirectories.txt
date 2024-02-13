@@ -1,3 +1,0 @@
-/home/myth/Documentos/c++/LightYear/build/CMakeFiles/LightYearsGame.dir
-/home/myth/Documentos/c++/LightYear/build/CMakeFiles/edit_cache.dir
-/home/myth/Documentos/c++/LightYear/build/CMakeFiles/rebuild_cache.dir
