@@ -7,3 +7,14 @@
 
 ### LIBS:
 - SMFL
+
+
+## HOW RUN THE GAME?
+
+### ENTER THE BUILD FOLDER AND RUN THIS CODE BELOW:
+``` cmake -S .. -B . ```
+
+### AFTER THAT, RUN THIS CODE
+``` make ```
+
+### RUN THE EXEC FILE
