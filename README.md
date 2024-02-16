@@ -1,0 +1,9 @@
+##TEMPLATE GAME 
+
+### LANGUAGE:
+- C++
+- CMAKE
+- C
+
+### LIBS:
+- SMFL
