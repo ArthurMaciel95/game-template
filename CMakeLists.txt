@@ -31,6 +31,10 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(${SFML_LIB_NAME})
 
+target_include_directories(${LIGHT_YEARS_GAME_TARGET_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/${LIGHT_YEARS_GAME_TARGET_NAME}/includes)
+
+
+
 target_link_libraries(${LIGHT_YEARS_GAME_TARGET_NAME} PUBLIC sfml-graphics sfml-window sfml-system sfml-audio)
 
 function(CopyLibToTarget LIB_NAME TARGET_NAME)
@@ -40,6 +44,7 @@ function(CopyLibToTarget LIB_NAME TARGET_NAME)
         $<TARGET_FILE_DIR:${TARGET_NAME}>
     )
 endfunction()
+
 
 
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/${LIGHT_YEARS_GAME_TARGET_NAME}/assets DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/${LIGHT_YEARS_GAME_TARGET_NAME})
